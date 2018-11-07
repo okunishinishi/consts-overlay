@@ -1,0 +1,19 @@
+{
+  "name": "consts-overlay",
+  "version": "1.0.0",
+  "description": "Constants object which can be overlay other object",
+  "main": "lib",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FujiHaruka/consts-overlay.git"
+  },
+  "author": "FujiHaruka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FujiHaruka/consts-overlay/issues"
+  },
+  "homepage": "https://github.com/FujiHaruka/consts-overlay#readme"
+}
