@@ -1,6 +1,6 @@
 # consts-overlay
 
-Constants object which can be overlay other object.
+Function to overlay a constants object.
 
 ## Installation
 

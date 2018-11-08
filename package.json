@@ -1,7 +1,7 @@
 {
   "name": "consts-overlay",
   "version": "1.0.0",
-  "description": "Constants object which can be overlay other object",
+  "description": "Function to overlay a constants object",
   "main": "lib",
   "scripts": {
     "test": "mocha"
