@@ -10,6 +10,8 @@ describe('consts-overlay', () => {
       }).overlay({
         FOO: 'foofoo',
         BAZ: 'baz',
+      }, {
+        onOverride: ({ key, from, to }) => console.log(`Override ${key}: ${from} -> ${to}`)
       }),
       {
         FOO: 'foofoo',
@@ -20,8 +22,7 @@ describe('consts-overlay', () => {
     assert.deepStrictEqual(
       consts({
         FOO: 'hello',
-      }).overlay({
-      }),
+      }).overlay({}),
       { FOO: 'hello' },
     )
 
